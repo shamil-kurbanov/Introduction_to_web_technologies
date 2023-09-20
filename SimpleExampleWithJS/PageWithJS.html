@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Example</title>
+</head>
+<body>
+    <p>This is a simpel HTML Page</p>
+
+    <script lang="JS">
+        alert("Hello World");
+    </script>
+    <p>After the script</p>
+
+    <script lang="JS">
+        let name = prompt("What is your name?");
+        let surname = prompt("What is your surname?");
+        alert("Hello " + name + " " + surname);
+        alert(`You are great ${name} ${surname}`);
+    </script>
+
+    <script lang="JS">
+        let right = confirm("Are you sure?");
+        if (right) {
+            alert("You are right");
+        } else {
+            alert("You are wrong");
+        }
+    </script>
+
+    <script lang="JS">
+        showMessage();
+
+        function showMessage(){
+            alert(`Hello ${name} ${surname} from function`);
+        }
+    </script>
+
+    <script lang="JS">
+        alert("Function Sum:");
+        let a = +prompt("Enter a:");
+        let b = +prompt("Enter b:");
+        let result = sum(a, b);
+
+        alert(`Sum of ${a} and ${b} is ${result}`);
+
+        function sum(a, b){
+            return a + b;
+        }
+    </script>
+
+    <p>End of the page</p>
+</body>
+</html>
