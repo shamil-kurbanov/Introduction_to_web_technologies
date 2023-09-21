@@ -6,11 +6,13 @@
 3. Make at least 3 changes to the page using the developer tool and provide screenshots of what was/was.
 4. Create a low detail prototype.
 
-###
-1.The site https://pet7.ru/ runs on the HTTPS protocol, which means that it uses a secure connection between the browser and the server.
+### 1. Protocol of the Website
+The site [pet7.ru](https://pet7.ru/) runs on the HTTPS protocol, which means that it uses a secure connection between the browser and the server.
 
-The structure of a website page consists of three main parts: header, content and footer. In the code they are indicated as follows:
+### 2. Site Page Structure
+The structure of a website page consists of three main parts: header, content, and footer. In the code, they are indicated as follows:
 
+```html
 <html>
 <head>
   <!-- Здесь находятся метаданные, заголовок, стили и скрипты страницы -->
