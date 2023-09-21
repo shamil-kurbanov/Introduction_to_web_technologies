@@ -37,3 +37,6 @@ The structure of a website page consists of three main parts: header, content, a
 
 ### 3. Screenshot
 ![Alt Text](Screenshot_.png)
+
+### 4. Prototype:
+![Alt Text](Screenshot_Prototype.png)
