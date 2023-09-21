@@ -1,4 +1,4 @@
-## Ответы на вопросы
+## Answers on questions
 
 # Task: based on the site https://pet7.ru/
 1. Determine what protocol the site is running on.
@@ -31,3 +31,9 @@ The structure of a website page consists of three main parts: header, content, a
   </div>
 </body>
 </html>
+
+```
+
+
+### 3. Screenshot
+![Alt Text](Screenshot_.png)
