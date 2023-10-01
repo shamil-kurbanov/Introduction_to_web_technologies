@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #00ffff; <! --cian color #00ffff -->
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -24,6 +24,17 @@ nav a {
 
 .content{
     padding: 20px;
+    /*centering*/
+    margin: 0 auto; /* zentriert den Inhalt */
+    width: 80%; /* Breite des Inhaltsbereichs */
+    height: 100%; /* Höhe des Inhaltsbereichs */
+    background-color: #fff; /* Hintergrundfarbe des Inhaltsbereichs ist weiß */
+    border: 1px solid #555; /* Rahmen um den Inhaltsbereich */
+    border-radius: 10px; /* Abrundung der Ecken */
+    box-shadow: 0 0 10px #555; /* Schatten um den Inhaltsbereich */
+    text-align: center;
+    /* abstant bis nav 50 px*/
+    margin-top: 50px;
 }
 
 #home-content {
@@ -33,4 +44,14 @@ nav a {
 #about-content,
 #chat-content {
     display: none;
+}
+
+footer {
+    background-color: #8A2BE2 ; <! --dark magenta color #8A2BE2 -->
+    color: #fff; /* Textfarbe in footer - weiß */
+    padding: 10px; /* Abstand zwischen Text und Rand */
+    text-align: center; /* Text zentrieren */
+    position: absolute; /* Positionierung des footers wird festgelegt */
+    bottom: 0; /* Abstand des footers zum unteren Rand */
+    width: 100%; /* Breite des footers */
 }
