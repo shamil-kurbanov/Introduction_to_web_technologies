@@ -55,3 +55,48 @@ footer {
     bottom: 0; /* Abstand des footers zum unteren Rand */
     width: 100%; /* Breite des footers */
 }
+
+/* div mit der id "error-messages" */
+#error-messages {
+    color: #f00; /* Textfarbe in rot */
+    font-weight: bold; /* Text fett */
+}
+
+.chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.chat-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+.error-messages {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}

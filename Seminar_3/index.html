@@ -29,10 +29,18 @@
         </p>
     </div>
     <div class="content" id="chat-content">
-        <h2>Willcommen auf der Chatseite</h2>
-        <p>
-            Das ist der Inhalt der Chatseite
-        </p>
+        <h2>Chat</h2>
+        <div id="chat-box" class="chat-box">
+            <!-- Chatnachrichten werden hier angezeigt -->
+        </div>
+        <div id="chat-input" class="chat-input">
+            <input type="text" id="name" class="input-field" placeholder="Your name">
+            <textarea id="message" class="input-field" placeholder="Your Message"></textarea>
+            <button id="send-button" class="send-button">Senden</button>
+        </div>
+        <div id="error-messages" class="error-messages">
+            <!-- Fehlermeldungen werden hier angezeigt -->
+        </div>
     </div>
     <footer>
         <p>Webseite &copy; 2023</p>
